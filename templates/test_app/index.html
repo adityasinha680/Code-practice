@@ -1,0 +1,8 @@
+{%extends 'test_app/base.html'%}
+{%load static%}
+{%block content%}
+<h1>Test</h1>
+{%for data in student%}
+	{{data.first_name}}
+{%endfor%}
+{%endblock%}
